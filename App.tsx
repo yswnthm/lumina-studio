@@ -8,7 +8,11 @@ import { About } from './components/About';
 import { Services } from './components/Services';
 import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
+
 import { CTASection } from './components/CTASection';
+import { ServicesPreview } from './components/ServicesPreview';
+import { Process } from './components/Process';
+import { FAQ } from './components/FAQ';
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -23,7 +27,10 @@ const HomePage = () => (
   <>
     <Hero />
     <Portfolio />
+    <ServicesPreview />
+    <Process />
     <About />
+    <FAQ />
     <Testimonials />
     <CTASection />
   </>
